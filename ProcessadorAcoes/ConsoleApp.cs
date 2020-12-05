@@ -38,7 +38,7 @@ namespace ProcessadorAcoes
                 nomeTopic, subscription);
 
             _logger.Information($"Topic = {nomeTopic}");
-            _logger.Information($"Subscription = {nomeTopic}");
+            _logger.Information($"Subscription = {subscription}");
 
             _logger.Information("Aguardando mensagens...");
             _logger.Information("Pressione Enter para encerrar");
